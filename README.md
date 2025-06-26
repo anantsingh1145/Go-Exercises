@@ -84,6 +84,7 @@ go run hello.go
 | `go env GOARCH GOOS`     | Displays Go’s target architecture and OS.       |
 | `GOOS=linux go build`    | Cross-compiles your program for Linux.          |
 | `go help`                | Displays help for Go tooling (e.g., `go help build`). |
+| `go env`                 | Displays all the go environments. |
 
 ---
 
