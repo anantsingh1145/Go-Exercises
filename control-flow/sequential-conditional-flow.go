@@ -20,12 +20,9 @@ func main() {
 	// Conditional statements to check the range of the generated number
 	if x <= 100 {
 		fmt.Printf("Number is between 0 and 100: %v\n", x)
-	}
-
-	if x > 100 && x <= 200 {
+	} else if x > 100 && x <= 200 {
 		fmt.Printf("Number is between 101 and 200: %v\n", x)
-	}
-	if x > 200 && x <= 250 {
+	} else {
 		fmt.Printf("Number is between 201 and 250: %v\n", x)
 	}
 }
