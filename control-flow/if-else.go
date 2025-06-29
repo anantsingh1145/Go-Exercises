@@ -8,6 +8,7 @@ import (
 func main() {
 	x, y := rand.Intn(10), rand.Intn(10)
 
+	// Using if-else statements to check conditions on x and y
 	if x < 4 && y < 4 {
 		fmt.Printf("Both x = %d and y = %d are less than 4\n", x, y)
 	} else if x > 6 && y > 6 {
