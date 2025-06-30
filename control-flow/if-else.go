@@ -20,4 +20,18 @@ func main() {
 	} else {
 		fmt.Printf("No specific condition met for x = %d and y = %d \n", x, y)
 	}
+
+	// Using a switch statement to check conditions on x and y
+	switch {
+	case x < 4 && y < 4:
+		fmt.Printf("Switch: Both x = %d and y = %d are less than 4\n", x, y)
+	case x > 6 && y > 6:
+		fmt.Printf("Switch: Both x = %d and y = %d are greater than 6\n", x, y)
+	case x >= 4 && x <= 6:
+		fmt.Printf("Switch: x = %d is between 4 and 6, and y = %d is less than or equal to 6\n", x, y)
+	case y != 5:
+		fmt.Printf("Switch: y = %d is not equal to 5\n", y)
+	default:
+		fmt.Printf("Switch: No specific condition met for x = %d and y = %d \n", x, y)
+	}
 }
