@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+// This program demonstrates how to create and print a multi-dimensional slice in Go.
+// A multi-dimensional slice is essentially a slice of slices, allowing for the representation of more complex data structures.
 func main() {
 	slice1 := []string{"a", "b", "c"}
 	slice2 := []string{"d", "e", "f"}

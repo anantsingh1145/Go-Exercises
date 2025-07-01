@@ -4,6 +4,9 @@ import (
 	"fmt"
 )
 
+// This program demonstrates the use of slices in Go.
+// It creates a slice of strings representing the best movies of Robert Downey Jr.
+// and iterates over the slice using a for loop with the range keyword.
 func main() {
 	s := []string{"Iron Man", "The Avengers", "Tropic Thunder", "Sherlock Holmes", "Kiss Kiss, Bang Bang", "Zodiac", "Chaplin", "Good Night, and Good Luck", "The Judge", "Oppenheimer"}
 	fmt.Println("Best movies of Robert Downey Jr. :", s)
