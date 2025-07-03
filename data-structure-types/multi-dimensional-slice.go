@@ -13,6 +13,6 @@ func main() {
 	fmt.Println("slice1: ", slice1) // Output: [a b c]
 	fmt.Println("slice2: ", slice2) // Output: [d e f]
 
-	s1Xs2 := [][]string{slice1, slice2}
+	s1Xs2 := [][]string{slice1, slice2}     // Create a multi-dimensional slice containing slice1 and slice2
 	fmt.Println("slice1 X slice2: ", s1Xs2) // Output: [[a b c] [d e f]]
 }
